@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Ok;
+    src: url(./Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: media;
+    src: url(./Rubik_Puddles/RubikPuddles-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 30000px;
+}
+
+.title {
+    color: red;
+    text-align: center;
+
+    font-family: media;
+}
+
+.text {
+    padding-top: 2rem;
+    font-size: 28px;
+    line-height: 1.8;
+    white-space: 30px;
+    letter-spacing: 2px;
+    text-indent: 2em;
+    text-transform: capitalize;
+    font-style: italic;
+    text-decoration: line-through overline underline;
+}
+
+.msg {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(127, 252, 127);
+    margin: 50px;
+    border-radius: 20px 20px 20px 0;
+    word-break: break-all;
+    position: relative;
+}
+
+.msg span {
+    position: absolute;
+    bottom: 6px;
+    right: 10px;
+    font-size: 12px;
+    user-select: none;
+}
+
+.font {
+    font-size: 28px;
+    font-family: Ok;
+}
+
+.photo {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: -150px;
+    opacity: .75;
+    transition: .5s;
+}
+
+.photo:hover {
+    opacity: 1;
+}

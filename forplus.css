@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(15, 15, 74);
+}
+
+.rect {
+    display: flex;
+    margin: auto;
+    background-color: dodgerblue;
+    width: 900px;
+    height: 400px;
+    margin-top: 140px;
+    padding-left: 200px;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    margin-top: -50px;
+    background-color: dodgerblue;
+    border: 120px solid rgb(15, 15, 74);
+    transform: rotate(45deg);
+    
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(15, 15, 74);
+    margin-top: 90px;
+    margin-left: 90px;
+    border-radius: 50%;
+
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(255, 153, 0);
+}
+
+.big__box {
+    margin: auto;
+    margin-top: 120px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(7, 7, 38);
+    position: relative;
+}
+
+.middle__box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(154, 134, 19);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.small__box {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    margin-top: 100px;
+    margin-left: 100px;
+}
